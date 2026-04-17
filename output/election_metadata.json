@@ -1,0 +1,233 @@
+{
+    "CD-3": {
+        "Race Name": "CD-3",
+        "Candidates": [
+            "Kevin Kiley  Votes",
+            "Jessica Morse  Votes"
+        ],
+        "Incumbent": "Kevin Kiley  Votes",
+        "Jurisdictions": [
+            "Alpine",
+            "El Dorado",
+            "Inyo",
+            "Mono",
+            "Nevada",
+            "Placer",
+            "Plumas",
+            "Sacramento",
+            "Sierra",
+            "Yuba"
+        ]
+    },
+    "CD-9": {
+        "Race Name": "CD-9",
+        "Candidates": [
+            "Kevin Lincoln  Votes",
+            "Josh Harder  Votes"
+        ],
+        "Incumbent": "Josh Harder  Votes",
+        "Jurisdictions": [
+            "Contra Costa",
+            "San Joaquin",
+            "Stanislaus"
+        ]
+    },
+    "CD-13": {
+        "Race Name": "CD-13",
+        "Candidates": [
+            "John Duarte  Votes",
+            "Adam Gray  Votes"
+        ],
+        "Incumbent": "John Duarte  Votes",
+        "Jurisdictions": [
+            "Fresno",
+            "Madera",
+            "Merced",
+            "San Joaquin",
+            "Stanislaus"
+        ]
+    },
+    "CD-21": {
+        "Race Name": "CD-21",
+        "Candidates": [
+            "Michael Maher  Votes",
+            "Jim Costa  Votes"
+        ],
+        "Incumbent": "Jim Costa  Votes",
+        "Jurisdictions": [
+            "Fresno",
+            "Tulare"
+        ]
+    },
+    "CD-22": {
+        "Race Name": "CD-22",
+        "Candidates": [
+            "David Valadao  Votes",
+            "Rudy Salas  Votes"
+        ],
+        "Incumbent": "David Valadao  Votes",
+        "Jurisdictions": [
+            "Kern",
+            "Kings",
+            "Tulare"
+        ]
+    },
+    "CD-27": {
+        "Race Name": "CD-27",
+        "Candidates": [
+            "Mike Garcia  Votes",
+            "George Whitesides  Votes"
+        ],
+        "Incumbent": "Mike Garcia  Votes",
+        "Jurisdictions": [
+            "Los Angeles"
+        ]
+    },
+    "CD-40": {
+        "Race Name": "CD-40",
+        "Candidates": [
+            "Young Kim  Votes",
+            "Joe Kerr  Votes"
+        ],
+        "Incumbent": "Young Kim  Votes",
+        "Jurisdictions": [
+            "Orange",
+            "Riverside",
+            "San Bernardino"
+        ]
+    },
+    "CD-41": {
+        "Race Name": "CD-41",
+        "Candidates": [
+            "Ken Calvert  Votes",
+            "Will Rollins  Votes"
+        ],
+        "Incumbent": "Ken Calvert  Votes",
+        "Jurisdictions": [
+            "Riverside"
+        ]
+    },
+    "CD-45": {
+        "Race Name": "CD-45",
+        "Candidates": [
+            "Michelle Steel  Votes",
+            "Derek Tran  Votes"
+        ],
+        "Incumbent": "Michelle Steel  Votes",
+        "Jurisdictions": [
+            "Los Angeles",
+            "Orange"
+        ]
+    },
+    "CD-47": {
+        "Race Name": "CD-47",
+        "Candidates": [
+            "Scott Baugh  Votes",
+            "Dave Min  Votes"
+        ],
+        "Incumbent": null,
+        "Jurisdictions": [
+            "Orange"
+        ]
+    },
+    "CD-49": {
+        "Race Name": "CD-49",
+        "Candidates": [
+            "Matt Gunderson  Votes",
+            "Mike Levin  Votes"
+        ],
+        "Incumbent": "Mike Levin  Votes",
+        "Jurisdictions": [
+            "Orange",
+            "San Diego"
+        ]
+    },
+    "SD-5": {
+        "Race Name": "SD-5",
+        "Candidates": [
+            "Jim Shoemaker  Votes",
+            "Jerry McNerney  Votes"
+        ],
+        "Incumbent": null,
+        "Jurisdictions": [
+            "Alameda",
+            "San Joaquin"
+        ]
+    },
+    "SD-19": {
+        "Race Name": "SD-19",
+        "Candidates": [
+            "Rosilicie Ochoa Bogh  Votes",
+            "Lisa Middleton  Votes"
+        ],
+        "Incumbent": "Rosilicie Ochoa Bogh  Votes",
+        "Jurisdictions": [
+            "Riverside",
+            "San Bernardino"
+        ]
+    },
+    "SD-35": {
+        "Race Name": "SD-35",
+        "Candidates": [
+            "Laura Richardson  Votes",
+            "Michelle Chambers  Votes"
+        ],
+        "Incumbent": null,
+        "Jurisdictions": [
+            "Los Angeles"
+        ]
+    },
+    "SD-37": {
+        "Race Name": "SD-37",
+        "Candidates": [
+            "Steven \"Steve\" Choi  Votes",
+            "Josh Newman  Votes"
+        ],
+        "Incumbent": "Josh Newman  Votes",
+        "Jurisdictions": [
+            "Orange"
+        ]
+    },
+    "AD-47": {
+        "Race Name": "AD-47",
+        "Candidates": [
+            "Greg Wallis  Votes",
+            "Christy Holstege  Votes"
+        ],
+        "Incumbent": null,
+        "Jurisdictions": [
+            "Riverside",
+            "San Bernardino"
+        ]
+    },
+    "AD-58": {
+        "Race Name": "AD-58",
+        "Candidates": [
+            "Leticia Castillo  Votes",
+            "Clarissa Cervantes  Votes"
+        ],
+        "Incumbent": null,
+        "Jurisdictions": [
+            "Riverside",
+            "San Bernardino"
+        ]
+    },
+    "AD-74": {
+        "Race Name": "AD-74",
+        "Candidates": [
+            "Laurie Davies  Votes",
+            "Chris Duncan  Votes"
+        ],
+        "Incumbent": "Laurie Davies  Votes",
+        "Jurisdictions": [
+            "Orange",
+            "San Diego"
+        ]
+    },
+    "Statewide Results": {
+        "Race Name": "Statewide Results",
+        "Jurisdictions": [
+            "California"
+        ]
+    }
+}
