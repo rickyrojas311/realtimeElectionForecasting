@@ -1,0 +1,11 @@
+# Virtual Environments
+.venv/
+
+# Python Byte-compiled / Optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.DS_Store
+Thumbs.db
