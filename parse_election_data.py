@@ -35,6 +35,7 @@ def main():
 
     xls = pd.ExcelFile(excel_path)
     metadata = {}
+    all_races_data = []
     
     for tab in xls.sheet_names:
         if tab in ["About", "Template"]:
@@ -114,11 +115,23 @@ def main():
         # Save the processed CSV file to the output directory
         melted_df.to_csv(os.path.join(output_dir, f"{tab}.csv"), index=False)
         
+        # Add race to our combined list if it starts with CD, SD, or AD 
+        # and has both a Democrat (D) and Republican (R) candidate
+        if tab.startswith(("CD", "SD", "AD")) and "D" in (party1, party2) and "R" in (party1, party2):
+            race_df = melted_df.copy()
+            race_df['Race'] = tab
+            all_races_data.append(race_df)
+        
     # Save the metadata JSON file to the output directory
     with open(os.path.join(output_dir, "election_metadata.json"), 'w') as f:
         json.dump(metadata, f, indent=4)
 
     print(f"Successfully parsed {len(xls.sheet_names)} tabs. Files saved in '{output_dir}'.")
+
+    # Combine and save all CD, SD, AD races
+    if all_races_data:
+        combined_df = pd.concat(all_races_data, ignore_index=True)
+        combined_df.to_csv(os.path.join(output_dir, "combined_races.csv"), index=False)
 
 if __name__ == "__main__":
     main()
