@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>CA State Senate Districts and Membership 2025-2030</title>
+                <onlink>https://services3.arcgis.com/uknczv4rpevve42E/arcgis/rest/services/CA_State_Senate_Districts_and_Membership/FeatureServer</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This is the last boundary change until the next redistricting following the 2030 Census. All of the districts now reflect the 2021 Citizens Redistricting Commission(CRC) plan. The only thing that will change is the members' names and parties as elections are held, appointments are made, or party affiliations change.Senate Districts feature layer is updated as-needed and we expect to update it more regularly in the future.Schema:F2020_POP: The 2020 population of the district as reported by the census.F2020_HU: Number of housing units in the district in 2020 as reported by the census.CRC_POP: Citizen's Redistricting Commission population.District: The District is the district number.Party: The Party is the party represented.last_name: The last name is the last name of the representative.first_name: The first name is the first name of the representative.district_website: The district website is the link to the district website.For more information about the F2020_Pop and the F2020_HU visit: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html</abstract>
+            <purpose>CA state senate district boundaries and current membership. Boundaries are valid for sessions starting in 2025 and through 2030.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-124.57997245530245</westbc>
+                <eastbc>-113.4980745294404</eastbc>
+                <northbc>42.07233395565459</northbc>
+                <southbc>32.41628801041966</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Senate</themekey>
+                <themekey>Senate 2025</themekey>
+                <themekey>CA Senate</themekey>
+                <themekey>California Senate</themekey>
+                <themekey>Democratic</themekey>
+                <themekey>Republican</themekey>
+                <themekey>Party</themekey>
+                <themekey>Districts</themekey>
+                <themekey>We Dra</themekey>
+                <themekey>California Citizens Redistricting Commission (CRC)</themekey>
+                <themekey>CRC</themekey>
+                <themekey>Boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>https://creativecommons.org/publicdomain/zero/1.0/</useconst>
+        <datacred>We Draw the Lines (Citizen's Redistricting Commission)</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
