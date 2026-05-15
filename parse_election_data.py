@@ -29,7 +29,7 @@ def main():
     # Use the script's location to build relative paths, making it more portable
     script_dir = os.path.dirname(os.path.abspath(__file__))
     excel_path = os.path.join(script_dir, "CCTP_data", "CCPT_2024_General_Election.xlsx")
-    output_dir = os.path.join(script_dir, "output")
+    output_dir = os.path.join(script_dir, "2024_output")
 
     os.makedirs(output_dir, exist_ok=True)
 

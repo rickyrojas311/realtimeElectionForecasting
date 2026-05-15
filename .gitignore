@@ -1,6 +1,8 @@
 # Virtual Environments
 .venv/
 
+CLAUDE.md
+
 # Python Byte-compiled / Optimized / DLL files
 __pycache__/
 *.pyc
