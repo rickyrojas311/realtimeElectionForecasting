@@ -1,0 +1,12 @@
+{
+  "baseline": "E+6",
+  "n_races": 11,
+  "excluded_races": [
+    "SD-16"
+  ],
+  "mu_g_hat": 0.0013748270741872398,
+  "sigma_r_hat": 0.01017952831506951,
+  "sigma_eps_hat": 0.005056496765860767,
+  "tau_mu_g": 0.01017952831506951,
+  "lognormal_sigma_for_variance_priors": 0.5
+}
