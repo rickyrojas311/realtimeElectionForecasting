@@ -9,7 +9,8 @@
       "Bash(python parse_election_data.py --input \"CCTP_data/CCPT_2022_Pilot_Election.xlsx\")",
       "Bash(python -c ' *)",
       "Bash(python -c \"import json; nb=json.load\\(open\\('model_v2_EB.ipynb'\\)\\); cells=nb['cells']; print\\([\\(c['id'], c['cell_type'], c['source'][:80] if c['source'] else ''\\) for c in cells[:5]]\\)\")",
-      "Bash(python -c \"import json; nb=json.load\\(open\\('model_v2_EB.ipynb'\\)\\); c=nb['cells'][0]; print\\('id:', c['id']\\); print\\('type:', c['cell_type']\\); print\\('source preview:'\\); print\\(''.join\\(c['source'][:500]\\)\\)\")"
+      "Bash(python -c \"import json; nb=json.load\\(open\\('model_v2_EB.ipynb'\\)\\); c=nb['cells'][0]; print\\('id:', c['id']\\); print\\('type:', c['cell_type']\\); print\\('source preview:'\\); print\\(''.join\\(c['source'][:500]\\)\\)\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('model_v1_sensitivity.ipynb'\\)\\); print\\([\\(i, c['id']\\) for i, c in enumerate\\(nb['cells']\\)]\\)\")"
     ]
   }
 }
