@@ -19,7 +19,14 @@
       "Bash(python -c \"import json; nb=json.load\\(open\\(r'c:\\\\Users\\\\ricky\\\\OneDrive\\\\Desktop\\\\Stats 305C\\\\realtimeElectionForecasting\\\\CCTP_data\\\\Estimating_N.ipynb'\\)\\); [print\\(i, c.get\\('id','no-id'\\), ''.join\\(c['source']\\)[:60]\\) for i,c in enumerate\\(nb['cells']\\)]\")",
       "Bash(python -c \"import json; nb=json.load\\(open\\(r'c:\\\\Users\\\\ricky\\\\OneDrive\\\\Desktop\\\\Stats 305C\\\\realtimeElectionForecasting\\\\CCTP_data\\\\Estimating_N_2022.ipynb'\\)\\); [print\\(i, c.get\\('id','no-id'\\), ''.join\\(c['source']\\)[:120]\\) for i,c in enumerate\\(nb['cells']\\)]\")",
       "Bash(python -c \"import json; nb=json.load\\(open\\(r'c:\\\\Users\\\\ricky\\\\OneDrive\\\\Desktop\\\\Stats 305C\\\\realtimeElectionForecasting\\\\CCTP_data\\\\Estimating_N_2024.ipynb'\\)\\); [print\\(i, c.get\\('id','no-id'\\), ''.join\\(c['source']\\)[:80]\\) for i,c in enumerate\\(nb['cells']\\)]\")",
-      "Bash(python -c \"import json; nb=json.load\\(open\\('geographic_visualizations.ipynb'\\)\\); [print\\(f'=== cell {c[\\\\\"id\\\\\"]} ===\\\\n{c[\\\\\"source\\\\\"]}'\\) for c in nb['cells'] if c['cell_type']=='code']\")"
+      "Bash(python -c \"import json; nb=json.load\\(open\\('geographic_visualizations.ipynb'\\)\\); [print\\(f'=== cell {c[\\\\\"id\\\\\"]} ===\\\\n{c[\\\\\"source\\\\\"]}'\\) for c in nb['cells'] if c['cell_type']=='code']\")",
+      "Bash(python make_eval_nb.py)",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('model_v2/model_evaluation.ipynb'\\)\\); print\\(len\\(nb['cells']\\), 'cells'\\)\")",
+      "Bash(del \"c:\\\\Users\\\\ricky\\\\OneDrive\\\\Desktop\\\\Stats 305C\\\\realtimeElectionForecasting\\\\make_eval_nb.py\")",
+      "Bash(python)",
+      "Bash(python patch_eval.py)",
+      "Bash(python patch_eval2.py)",
+      "Bash(python patch_eval3.py)"
     ]
   }
 }
